@@ -1,0 +1,314 @@
+@media(min-width:768px){
+    
+    .hemali{
+        display: flex;
+        width: 100%;
+        flex-direction: unset;
+    }
+    .hemali .left{
+        width: 90%;
+    }
+    .hemali .left p{
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 100;
+        color: #333333;
+        display:inline-block;
+        margin-top:20px ;
+        
+    
+    }
+    .hemali .left .sel{
+        margin-left: 3%;
+        display: inline;
+        
+    }
+    .hemali .left .sele{
+        margin-left: 23%;
+        /* border: 2px solid; */
+    }
+    .hemali .left .sele2{
+        margin-left: 19%;
+    }
+    
+    
+    .hemali  .head1 i{
+        font-size: 14px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 300;
+        color: #868686;
+        display:inline-block;
+        margin:10px 0%;
+        font-style: normal;
+        margin-bottom: 15px;
+        /* border: 1px solid green; */
+    }
+    .hemali  .head1 .cal{
+        /* border: 1px solid; */
+        margin-left :3%;
+        font-weight: 300;
+        display: inline-block;
+    
+    
+    }
+    .hemali  .head1 .for{
+        /* border: 1px solid; */
+        margin-left :12.50%;
+        font-weight: 300;
+        
+    
+    
+    }
+    .hemali  .head1 .num{
+        /* border: 1px solid; */
+        margin-left :16%;
+        font-weight: 300;
+        
+    
+    }
+    .hemali .right a i  {
+        
+        margin-top: 40px;
+        color: blue;
+        font-size: 13px;
+        padding-right: 5px;
+        
+        /* border: 1px solid red; */
+        
+    }
+    .hemali .right a {
+        border: 1px solid red;
+        color: blue;
+        padding: 10px 10px;
+        margin-left: 20%;
+        
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .hemali .right{
+        width: 30%;
+        /* border: 1px solid red; */
+    }
+    .hemali .right a:hover {
+        background-color: #0f4c81;
+        color: white;
+        border: #0f4c81;
+    }
+    .hemali .right :hover i{
+        color: white;
+    }
+    
+    /* .header2 */
+    .parth{
+        display: flex;
+        width: 100%;
+        flex-direction: unset;
+        background-color: #0f4c81;
+        top: 0px;
+        z-index: 1;
+        /* border: 2px solid red; */
+    }
+    .parth .left {
+        width: 30%;
+        /* border: 2px solid ; */
+    }
+    .parth .left h1{
+        color: white;
+        font-weight: 700;
+        font-family: 'Rubik', sans-serif;
+        margin-left: 9%;
+        font-size: 35px;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .parth .right {
+        width: 69%; 
+        /* border: 2px solid red; */
+    }
+    .parth .right ul {
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content:start;
+        margin-top: 30px; 
+        /* border: 1px solid green; */
+    
+    }
+    .parth .right ul li {
+      margin-top: -5px;
+      
+        /* border: 1px solid; */
+    }
+    .parth .right ul li a {
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+        margin:0px 60px 0px 50px;
+        /* border: 1px solid red; */
+    }
+    .parth .right ul li .abo{
+        margin-left: 45%;
+    }
+    .parth .right ul li .con{
+        margin-left: 70%;
+    }
+
+    
+/* .section1 */
+.section1 .main{
+    position: relative;
+    width: 100%;
+}
+.section1 .main .img img{
+    width: 100%;
+    height:550px;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(65%);
+    
+
+}
+.section1 .main .text{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background-color: #fff;
+    width: 70%;
+    height: 370px;
+
+}
+.section1 .text p{
+    color: #ffa372;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-top: 5%;
+    padding-left: 5%;  
+}
+.section1 .text h1{
+    font-size: 35px;
+    color: #2b4052;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 45px;
+}
+.section1 .text .icon{
+    margin-top: 5%;
+}
+.section1 .text a{
+    font-size: 25px;
+    margin-left: 30px;
+    color: #ed6663;
+}
+.section1 .text .a1{
+    margin-left: 13%;
+}
+.section1 .text .a2{
+    margin-left: 13%;
+}
+.section1 .text .a3{
+    margin-left: 15%;
+}
+.section1 .text .text1 p{
+    color: #2b4052;
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: -3px;
+    /* position: absolute; */
+}
+.section1 .text .btn .check{
+    color:white;
+    background-color:#0f4c81;
+    border: 2px solid #0f4c81;
+    padding: 15px  29px;
+    margin-top: 33px;
+    font-size: 16px;
+    margin-left: 26px;
+    border-top-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border-top-left-radius: 3%;
+}
+.section1 .text .btn .check:hover{
+    background-color: white;
+   color: #0f4c81;
+}
+
+/* section2 */
+.section2 {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    margin-top: -2%;
+    background-color: #f7f7f7;
+}
+.section2 .left{
+   width: 100%;
+   /* border: 2px solid red; */
+   
+}
+.section2 .left .img1 img{
+   height: 600px;
+   margin-left: 4%;
+   padding: 9% 0px;
+   width: 93%;
+   margin-top: 0%;
+   /* width: 100%; */
+}
+
+.section2 .right{
+     width: 100%;
+   /* border: 2px solid red; */
+
+}
+.section2 .right .text h2{
+    margin-top: -6%;
+    margin-left: 4%;
+    font-size: 35px;
+    color: #2b4052;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-right: 0%;
+}
+
+.section2 .right .text p{
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 15px;
+    margin-right: 3%;
+    color: #777;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.section2 .right .text button{
+    margin-top: 3%;
+    margin-left: 4%;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px 6%;
+    background-color: #ed6663;
+    color: #fff;
+    border: 2px solid #ed6663;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 50px;
+}
+.section2 .right .text button:hover{
+
+    background-color: #0f4c81;
+    border: 2px solid #0f4c81;
+}
+
+/* .section3 */
+
+}    
